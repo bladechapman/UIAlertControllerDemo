@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eNv-Is-A2N">
+                                <rect key="frame" x="56" y="84" width="488" height="34"/>
+                                <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Trigger Ok/Cancel Action">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="showOkCancel:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JfE-wm-zYx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MHm-xh-frb">
+                                <rect key="frame" x="56" y="128" width="488" height="34"/>
+                                <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Trigger Ok/Cancel Action/Destroy">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="showOkCancelDestroy:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dyo-Mh-Wfr"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VDe-Y1-Y60">
+                                <rect key="frame" x="56" y="458" width="488" height="34"/>
+                                <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Trigger Default Action">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="showAlertAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pXE-vt-Pi9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hdI-us-gEl">
+                                <rect key="frame" x="56" y="502" width="488" height="34"/>
+                                <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Trigger Ok/Cancel Action">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="showOkCancelAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gxI-ZN-EzC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lig-Hv-6eU">
+                                <rect key="frame" x="56" y="546" width="488" height="34"/>
+                                <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Trigger Ok/Cancel Action/Destroy">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="showOkCancelDestroyAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="F9I-XF-bZx"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cwU-4E-aol">
+                                <rect key="frame" x="21" y="172" width="558" height="1"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="8MA-7P-5Yz"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2pb-Eb-UWg">
+                                <rect key="frame" x="21" y="447" width="558" height="1"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="da2-QV-DXG"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Action Sheets" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wzh-LU-8wA">
+                                <rect key="frame" x="247" y="416" width="107" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="107" id="2tJ-J4-R2o"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="2tJ-J4-R2o"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Alert Views" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zxu-ba-iAS">
+                                <rect key="frame" x="258" y="183" width="85" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JPZ-sa-wcY">
+                                <rect key="frame" x="56" y="40" width="488" height="34"/>
+                                <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Trigger Default Action">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="showAlert:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Xjt-p6-xND"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="VDe-Y1-Y60" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="40" id="32R-uF-R3c"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Wzh-LU-8wA" secondAttribute="trailing" constant="100" id="5aU-ai-wwi"/>
+                            <constraint firstItem="2pb-Eb-UWg" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="5" id="6fD-AI-SCS"/>
+                            <constraint firstItem="cwU-4E-aol" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="5" id="7cl-xS-jaG"/>
+                            <constraint firstItem="hdI-us-gEl" firstAttribute="top" secondItem="VDe-Y1-Y60" secondAttribute="bottom" constant="10" id="8C6-ZC-M0q"/>
+                            <constraint firstItem="MHm-xh-frb" firstAttribute="top" secondItem="eNv-Is-A2N" secondAttribute="bottom" constant="10" id="8IM-Uw-9c5"/>
+                            <constraint firstItem="2pb-Eb-UWg" firstAttribute="top" secondItem="Wzh-LU-8wA" secondAttribute="bottom" constant="10" id="8wB-3A-fdO"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="cwU-4E-aol" secondAttribute="trailing" constant="5" id="CPi-XQ-Ow5"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="VDe-Y1-Y60" secondAttribute="trailing" constant="40" id="Ebp-Ck-ctK"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="hdI-us-gEl" secondAttribute="trailing" constant="40" id="GGV-RA-fgR"/>
+                            <constraint firstItem="MHm-xh-frb" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="40" id="GGX-tt-Ird"/>
+                            <constraint firstItem="lig-Hv-6eU" firstAttribute="top" secondItem="hdI-us-gEl" secondAttribute="bottom" constant="10" id="IJ1-XX-uxO"/>
+                            <constraint firstItem="eNv-Is-A2N" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="40" id="LKR-77-Var"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="2pb-Eb-UWg" secondAttribute="trailing" constant="5" id="PX5-5A-20J"/>
+                            <constraint firstAttribute="centerX" secondItem="Zxu-ba-iAS" secondAttribute="centerX" id="R2P-F1-fQd"/>
+                            <constraint firstItem="Wzh-LU-8wA" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="100" id="TaA-uW-CO5"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="lig-Hv-6eU" secondAttribute="trailing" constant="40" id="USV-oj-J9v"/>
+                            <constraint firstItem="JPZ-sa-wcY" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="Vpe-80-Uea"/>
+                            <constraint firstItem="hdI-us-gEl" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="40" id="XpE-JY-PHx"/>
+                            <constraint firstItem="VDe-Y1-Y60" firstAttribute="top" secondItem="2pb-Eb-UWg" secondAttribute="bottom" constant="10" id="Yki-2p-Owd"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="lig-Hv-6eU" secondAttribute="bottom" constant="20" id="Z2V-AT-Giv"/>
+                            <constraint firstItem="lig-Hv-6eU" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="40" id="a8a-3z-C0I"/>
+                            <constraint firstItem="eNv-Is-A2N" firstAttribute="top" secondItem="JPZ-sa-wcY" secondAttribute="bottom" constant="10" id="eTP-XX-6I9"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="JPZ-sa-wcY" secondAttribute="trailing" constant="40" id="ntq-rV-WAM"/>
+                            <constraint firstItem="cwU-4E-aol" firstAttribute="top" secondItem="MHm-xh-frb" secondAttribute="bottom" constant="10" id="o0c-q1-IRo"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="MHm-xh-frb" secondAttribute="trailing" constant="40" id="oN8-0v-8YC"/>
+                            <constraint firstAttribute="centerX" secondItem="Wzh-LU-8wA" secondAttribute="centerX" id="otR-MP-nmw"/>
+                            <constraint firstItem="Zxu-ba-iAS" firstAttribute="top" secondItem="cwU-4E-aol" secondAttribute="bottom" constant="10" id="q9M-Fj-sRT"/>
+                            <constraint firstItem="JPZ-sa-wcY" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="40" id="sSB-cV-JFO"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="eNv-Is-A2N" secondAttribute="trailing" constant="40" id="sdW-N6-aCl"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="5aU-ai-wwi"/>
+                                <exclude reference="TaA-uW-CO5"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
